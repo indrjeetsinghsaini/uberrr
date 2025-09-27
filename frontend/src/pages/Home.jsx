@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import  { useEffect, useRef, useState } from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import axios from 'axios';
@@ -211,7 +211,7 @@ const Home = () => {
                     }} className='absolute opacity-0 right-6 top-6 text-2xl'>
                         <i className="ri-arrow-down-wide-line"></i>
                     </h5>
-                    <h4 className='text-2xl font-semibold'>Find a trip</h4>
+                    <h4 className='text-2xl font-semibold'>Find a trip Now </h4>
                     <form className='relative py-3' onSubmit={(e) => {
                         submitHandler(e)
                     }}>
